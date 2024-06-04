@@ -11,3 +11,417 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*css for forth page*/
+.icons{
+  position:relative;
+  box-sizing: border-box;
+height:40px;
+width:400px;
+margin-left:500px;
+margin-top:30px;
+}
+.icons .icon1 span{
+  position:relative;
+  left:20px;
+  font-size:14px;
+  top:-25px;
+}
+.icons .icon1 h4{
+  position:relative;
+  left:-100px;
+  top:-5px;
+}
+
+.icons .icon2 span{
+  position:relative;
+  left:-25px;
+  font-size:14px;
+  top:-25px;
+}
+.icons .icon2 h4{
+  position:relative;
+  left:-88px;
+  top:-5px;
+}
+.icons .icon3 span{
+  position:relative;
+  left:-10px;
+  font-size:14px;
+  top:-25px;
+}
+.icons .icon3 h4{
+  position:relative;
+  left:-50px;
+  top:-5px;
+}
+
+.icons .icon1 .one {
+  position: absolute;
+  left:15px;
+  top:30px;
+}
+.icons .icon2 .two {
+  position: absolute;
+  left:15px;
+  top:130px;
+}
+.icons .icon3 .three {
+  position: absolute;
+  left:15px;
+  top:230px;
+}
+.icons .icon1{
+  border:1px solid grey;
+  height:90px;
+  border-radius: 5px;
+}
+.icons .icon1:hover{
+  border-color: blue;
+}
+.icons .icon2:hover{
+  border-color: blue;
+}
+.icons .icon3:hover{
+  border-color: blue;
+}
+.icons .icon2{
+  border:1px solid grey;
+  margin-top:5px;
+  height:90px;
+  border-radius: 5px;
+}
+.icons .icon3{
+  border:1px solid grey;
+  margin-top:5px;
+  height:90px;
+  border-radius:5px;
+}
+.icons button{
+  margin-right:250px;
+  margin-top:80px;
+  color:white;
+  background-color: blue;
+  padding:10px 25px 10px 25px;
+  font-size:16px;
+  border-radius: 5px;
+}
+.forth .back {
+      margin-left:-600px;
+      cursor:pointer;
+}
+/*media queries for forth page*/
+@media (max-width: 600px) {
+  .icons{
+    position:relative;
+    box-sizing: border-box;
+  height:40px;
+  width:400px;
+  margin-left:15px;
+  margin-top:30px;
+  }
+
+}
+  
+/*css for third page*/
+
+.backnext{
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+.backnext .back{
+  margin-left:-200px;
+  cursor:pointer;
+}
+.next{
+  margin-right:-350px;
+  color:white;
+  background-color: blue;
+  padding:10px 25px 10px 25px;
+  font-size:16px;
+  border-radius: 5px;
+margin-top:-80px;
+}
+.below .list .first{
+  margin-left:-150px;
+  margin-top:40px;
+  border:1px solid grey;
+  padding:25px 45px 25px 45px;
+  border-radius:5px;
+}
+.below .list .first:hover{
+  border-color: blue;
+}
+
+.below .board .second{
+  margin-left:300px;
+  border:1px solid grey;
+  padding:25px 45px 25px 45px;
+  border-radius:5px;
+  margin-top:-120px;
+}
+/*.below .board {
+  margin-top:-135px;
+}*/
+.below .board .second:hover{
+  border-color: blue;
+}
+.below .list span{
+  position: relative;
+  left:-100px;
+  top:20px;
+}
+.below .board span{
+  position: relative;
+  left:-115px;
+  top:20px;
+}
+
+/*media queries for third page*/
+@media (max-width: 600px) {
+  .below .list .first{
+    margin-left:-150px;
+    margin-top:40px;
+    padding:15px 30px 15px 30px;
+  }
+  .below .board .second{
+    margin-left:220px;
+    padding:15px 30px 15px 30px;
+    margin-top:-220px;
+  }
+  .next{
+    margin-right:-250px;
+    color:white;
+    
+    padding:10px 25px 10px 25px;
+    font-size:14px;
+  margin-top:-400px;
+  }
+}
+
+/*css for second page*/
+.secondPage .time{
+  color:white;
+  background-color: blue;
+  padding:10px 30px 10px 30px;
+  font-size:15px;
+  border-radius: 5px 0px 0px 5px;
+  margin-left:-10px;
+  margin-top:20px;
+  border-color: 0.5px solid grey;
+}
+.secondPage .fix{
+  color:black;
+  background-color: white;
+  padding:10px 30px 10px 30px;
+  font-size:15px;
+  border-radius: 0px;
+  border-color: 0.5px solid grey;
+}
+.secondPage .bill{
+  color:black;
+  background-color: white;
+  padding:10px 30px 10px 30px;
+  font-size:15px;
+  border-radius: 0px 5px 5px 0px;
+  border-color: 0.5px solid grey;
+}
+.secondPage h3{
+  margin-left:-380px;
+  margin-top:20px;
+}
+.secondPage .hour{
+  margin-left:-25px;
+  margin-top:-15px;
+}
+.secondPage .form-select2{
+  margin-left:-10px;
+ margin-top:10px;
+ padding:7px 30px 7px 30px;
+ border-color: 1px solid grey;
+ border-radius:5px;
+ width:450px;
+}
+.secondPage .bud{
+  margin-left:-25px;
+  margin-top:-15px;
+}
+.secondPage .form-select3{
+  margin-left:-150px;
+  margin-top:10px;
+  padding:7px 30px 7px 30px;
+  border-color: 1px solid grey;
+  border-radius:5px;
+  width:300px;
+}
+.secondPage .check1{
+  margin-left:-240px;
+  margin-top:17px;
+}
+.secondPage .check2{
+  margin-left:80px;
+  margin-top:20px;
+}
+.secondPage .firstButton {
+  margin-top:50px; 
+  margin-left: 10px;
+  cursor:pointer;
+}
+.secondPage .secondButton {
+  margin-top:50px; 
+  margin-left: 190px;
+  color:white;
+  background-color: blue;
+  padding:10px 25px 10px 25px;
+  font-size:15px;
+  border-radius: 5px;
+}
+
+/*media queries to second page*/
+@media (max-width: 600px) {
+  .secondPage .time{
+    padding:7px 18px 7px 18px;
+  font-size:13px;
+  }
+  .secondPage .fix{
+    padding:7px 18px 7px 18px;
+  font-size:13px;
+  }
+  .secondPage .bill{
+    padding:7px 18px 7px 18px;
+  font-size:13px;
+  }
+  .secondPage h3{
+    margin-left:-320px;
+    margin-top:20px;
+    font-size:20px;
+  }
+  .secondPage .hour{
+    margin-left:-10px;
+    font-size:14px;
+  }
+  .secondPage .form-select2{
+    margin-left:-85px;
+   margin-top:10px;
+   padding:7px 18px 7px 18px;
+   width:300px;
+  }
+  .secondPage .bud{
+    margin-left:-10px;
+    font-size:14px;
+  }
+  .secondPage .form-select3{
+    margin-left:-85px;
+    margin-top:10px;
+    padding:7px 18px 7px 18px;
+    width:300px;
+  }
+  .secondPage .check1{
+    margin-left:-72px;
+    font-size:15px;
+  }
+  .secondPage .check2{
+    margin-left:-13px;
+    font-size:15px;
+  }
+  .secondPage .secondButton {
+    margin-top:35px; 
+  }
+}
+
+
+/*css for first page*/
+.form .project{
+  margin-left:-241px;
+}
+.form .proinput{
+  margin-left:70px;
+  margin-top:10px;
+ width:400px;
+ height:30px;
+ border-radius: 5px;
+ border:1px solid grey;
+}
+.form .proinput:hover{
+  border-color: blue;
+}
+.form .client{
+  margin-left:-290px;
+  margin-top:20px;
+}
+.form .form-select{
+  margin-left:68px;
+  margin-top:10px;
+  width:400px;
+ height:30px;
+ border-radius: 5px;
+ border:1px solid grey;
+}
+.form .form-select:hover{
+  border-color: blue;
+}
+
+.form .date{
+  margin-right:130px;
+  margin-top:40px;
+  border-radius: 5px;
+}
+.form .date1{
+  margin-right:-320px;
+  margin-top:-23px;
+  border-radius: 5px;
+}
+.form .notes{
+  margin-right:280px;
+  margin-top:30px;
+}
+.form textarea{
+  border-radius: 5px;
+  border:1px solid grey;
+  margin-right:-150px;
+  margin-top:10px;
+}
+.form textarea:hover{
+  border-color: blue;
+}
+
+.form .fbutton{
+  position:relative;
+  bottom:-60px;
+  left:50px;
+  color:white;
+  background-color: blue;
+  padding:7px 20px 7px 20px;
+  font-size:15px;
+  border-radius: 5px;
+}
+
+/*media queries for first page*/
+@media (max-width: 600px) {
+  .form .proinput{
+    margin-left:-10px;
+  margin-top:10px;
+ width:300px;
+ height:30px;
+  }
+  .form .form-select{
+    margin-left:-10px;
+    margin-top:10px;
+    width:300px;
+   height:30px;
+  }
+  .form .date{
+    margin-left:20px;
+    margin-top:40px;
+  }
+  .form .date1{
+    margin-right:70px;
+    margin-top:13px;
+  }
+  .form textarea{
+    margin-left:-65px;
+  }
+  form .fbutton{
+    margin-bottom:5px;
+  }
+}
